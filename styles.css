@@ -1,0 +1,116 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    
+
+}
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(47, 30, 2);
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    font-style:initial;
+}
+nav .navigation ul li a:hover{
+    color: #FDC938;
+    
+}
+nav .navigation ul li a:hover {
+   
+  transform: scale(1.05);
+}
+.card-body{
+    background: #000;color:orange;
+}
+nav{
+    margin-bottom: 30px;
+    height: 100px;
+    background:  rgb(250, 135, 13);
+}
+body{
+    background: #000;
+}
+
+.footer {
+    background-color:rgb(250, 135, 13) ; /* Footer background color */
+    color: #141414; /* Text color */
+    padding: 40px 0; /* Increase padding to increase height */
+    text-align: center; /* Center align text */
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 960px; /* Set maximum width for the content */
+    margin: 0 auto; /* Center align content */
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #454545;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #d3d1d1;
+    
+  }
+  #hero{
+    background: #baa8a8;
+    height: 105vh;
+    background-image: url(lpuheropic.png);
+
+  }
+  #herotext{
+    text-decoration: underline;
+    
+  }
+  .lead{
+    font-weight: bolder;
+  }
