@@ -105,9 +105,9 @@ body{
     
   }
   #hero{
-    background: #baa8a8;
-    height: 105vh;
     background-image: url(lpuheropic.png);
+    height: 100vh;
+    width: 100%;
 
   }
   #herotext{
@@ -117,3 +117,6 @@ body{
   .lead{
     font-weight: bolder;
   }
+.col{
+  margin-left: 50px;
+}
