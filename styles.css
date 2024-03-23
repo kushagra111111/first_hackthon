@@ -1,3 +1,8 @@
+body{
+  background-color: #000;
+}
+
+
 nav{
     display: flex;
     flex-direction: row;
@@ -117,6 +122,6 @@ body{
   .lead{
     font-weight: bolder;
   }
-.col{
-  margin-left: 50px;
+.album{
+  background-color: #000;
 }
